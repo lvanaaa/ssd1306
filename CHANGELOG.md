@@ -4,7 +4,9 @@
 SSD1306 monochrome OLED display.
 
 <!-- next-header -->
+
 ## [Unreleased] - ReleaseDate
+## [0.10.0] - 2025-03-22
 ### Changed
 - Added `DisplaySize64x32` to the prelude
 - Update `embedded-hal-bus` dependency to 0.3.0
@@ -304,7 +306,8 @@ SSD1306 monochrome OLED display.
 - Builder docs clarify the order of method calls (#89)
 
 <!-- next-url -->
-[Unreleased]: https://github.com/rust-embedded-community/ssd1306/compare/v0.9.0...HEAD
+[Unreleased]: https://github.com/rust-embedded-community/ssd1306/compare/v0.10.0...HEAD
+[0.10.0]: https://github.com/rust-embedded-community/ssd1306/compare/v0.9.0...v0.10.0
 [0.9.0]: https://github.com/jamwaffles/ssd1306/compare/v0.8.4...v0.9.0
 [0.8.4]: https://github.com/jamwaffles/ssd1306/compare/v0.8.3...v0.8.4
 
