@@ -6,6 +6,7 @@ SSD1306 monochrome OLED display.
 <!-- next-header -->
 ## [Unreleased] - ReleaseDate
 ### Changed
+- Added `DisplaySize64x32` to the prelude
 - Update `embedded-hal-bus` dependency to 0.3.0
 - Update examples
 
