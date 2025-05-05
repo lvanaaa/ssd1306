@@ -61,7 +61,7 @@ embedded-hal-bus = { version = "0.3.0", features = ["async"] }
 
 [features]
 default = ["graphics"]
-graphics = ["embedded-graphics-core"]
+graphics = ["embedded-graphics"]
 async = ["dep:embedded-hal-async"]
 
 [[example]]
