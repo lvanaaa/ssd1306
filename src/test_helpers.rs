@@ -1,7 +1,7 @@
 //! Helpers for use in examples and tests
 
 use display_interface::{DisplayError, WriteOnlyDataCommand};
-use embedded_hal::{
+use embedded_hal_1::{
     digital::{ErrorType, OutputPin},
     i2c,
     spi::{self, SpiBus},
@@ -10,9 +10,9 @@ use embedded_hal::{
 #[derive(PartialEq, Eq, Clone, Debug, Copy)]
 pub struct Error {}
 
-impl embedded_hal::digital::Error for Error {
-    fn kind(&self) -> embedded_hal::digital::ErrorKind {
-        embedded_hal::digital::ErrorKind::Other
+impl embedded_hal_1::digital::Error for Error {
+    fn kind(&self) -> embedded_hal_1::digital::ErrorKind {
+        embedded_hal_1::digital::ErrorKind::Other
     }
 }
 
